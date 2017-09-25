@@ -1,0 +1,4 @@
+app_persona:
+    resource: "@AppBundle/Resources/config/routing/persona.yml"
+    prefix:   /persona
+

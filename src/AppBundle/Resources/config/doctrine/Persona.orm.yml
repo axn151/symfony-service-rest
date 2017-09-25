@@ -1,0 +1,33 @@
+AppBundle\Entity\Persona:
+    type: entity
+    table: persona
+    id:
+        idPersona:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_persona
+            generator:
+                strategy: IDENTITY
+    fields:
+        nombre:
+            type: string
+            nullable: false
+            length: 25
+            options:
+                fixed: false
+            column: Nombre
+        apellido:
+            type: string
+            nullable: false
+            length: 25
+            options:
+                fixed: false
+        edad:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+    lifecycleCallbacks: {  }

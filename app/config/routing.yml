@@ -1,0 +1,10 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+app_persona:
+    resource: "@AppBundle/Resources/config/routing/persona.yml"
+    prefix:   /persona
+app_bundle_api:
+    resource: "@AppBundle/Resources/config/api-rest-routing.yml"
+    type:     rest
+    prefix:   /api
